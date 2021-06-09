@@ -54,12 +54,8 @@ WSGI_APPLICATION = 'my_chat.wsgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'corona',
-        'USER': 'root',
-        'PASSWORD': 'Dz(_11@HeR#VL',
-        'HOST': '34.87.39.39',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
