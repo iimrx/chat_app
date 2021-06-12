@@ -10,10 +10,11 @@ SECRET_KEY = 'django-insecure-kin0+hvq!u^o12=&xnc3f8!_v=e1kz4ow)wrbvvrhq^+18k&3t
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', '.herokuapp.com']
 
 # Application definition
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -21,7 +22,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'chat',
-    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
