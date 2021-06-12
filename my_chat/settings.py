@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kin0+hvq!u^o12=&xnc3f8!_v=e1kz4ow)wrbvvrhq^+18k&3t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -55,8 +55,12 @@ WSGI_APPLICATION = 'my_chat.wsgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'my_chat_app_db',
+	'USER': 'liquidx',
+	'PASSWORD': 'Zaak1234@',
+	'HOST': '34.87.39.39',
+	'PORT': '3306',
     }
 }
 
