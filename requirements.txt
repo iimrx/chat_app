@@ -12,3 +12,4 @@ SQLAlchemy==1.4.17
 sqlparse==0.4.1
 virtualenv==20.4.7
 psycopg2-binary==2.8.6
+whitenoise==5.2.0
