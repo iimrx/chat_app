@@ -19,4 +19,30 @@ Self Challenge To Build Chat App Thats Am The One Who Sees And Knows Whats Going
 - Visual Studio Code (Editor)
    - python3, pylance, Database Client
 - Ubuntu 20.04+ (OS)
+## You can run the project by running the following command (inside the project root):
+```python
+python3 manage.py runserver
+```
 ## Links After Deploying to Heroku Cloud & Google Cloud
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l"><b>Name</b></th>
+    <th class="tg-yw4l"><b>Description</b></th>
+    <th class="tg-yw4l"><b>Link</b></th>
+  </tr>
+  
+  <tr>
+    <td class="tg-yw4l">Heroku Cloud Deployment</td>
+    <td class="tg-yw4l">Live django app running on Heroku Cloud and using PostgreSQL database (inside AWS=EC2)</td>
+    <td class="tg-yw4l"><a href="https://myliquidxapp.herokuapp.com/">
+      <p>PCA</p>
+    </a></td>
+  </tr>
+  
+  <tr>
+    <td class="tg-yw4l">Google Cloud Deployment</td>
+    <td class="tg-yw4l">Live django app running on Google App Engine and using MySQL database (Cloud SQL Instance)</td>
+    <td class="tg-yw4l"><a href="https://testdb-315718.el.r.appspot.com/">
+     <p>PCA</p>
+    </a></td>
+  </tr>
