@@ -1,4 +1,5 @@
 body {
+  background-color: #000023;
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
@@ -59,7 +60,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #000023;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -69,11 +70,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #1d1d92;
 }
 
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
