@@ -41,17 +41,12 @@ body {
 .time-right {
   float: right;
   color: #999; /*#aaa*/
+  top: 0;
 }
 
 .time-left {
   float: left;
   color: #999;
-}
-
-.time-top {
-  float: right;
-  color: #999;
-  vertical-align: top;
 }
 
 input[type=text], select {
