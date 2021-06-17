@@ -41,9 +41,7 @@ body {
 .time-right {
   float: right;
   color: #999; /*#aaa*/
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
+  margin-bottom: 15px;
 }
 
 .time-left {
