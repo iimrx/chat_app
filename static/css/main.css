@@ -41,12 +41,14 @@ body {
 .time-right {
   float: right;
   color: #999; /*#aaa*/
-}
-
-.time-left {
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
+}
+
+.time-left {
+  float: left;
+  color: #999;
 }
 
 input[type=text], select {
