@@ -48,6 +48,12 @@ body {
   color: #999;
 }
 
+.time-top {
+  float: top;
+  color: #999;
+  vertical-align: top;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
