@@ -80,8 +80,3 @@ div {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-div.sticky{
-  position: sticky;
-  top: 0;
-}
