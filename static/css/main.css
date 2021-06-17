@@ -81,6 +81,7 @@ div {
   margin-bottom: 20px;
 }
 
-h2 .lite {
-  color: white;
+white-text {
+  color: #ffffff;
+  text-align: center;
 }
