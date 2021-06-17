@@ -49,7 +49,7 @@ body {
 }
 
 .time-top {
-  float: top;
+  float: right;
   color: #999;
   vertical-align: top;
 }
