@@ -40,7 +40,7 @@ body {
 
 .time-right {
   float: right;
-  color: #aaa;
+  color: #999; /*#aaa*/
 }
 
 .time-left {
