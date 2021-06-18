@@ -12,6 +12,7 @@ Self Challenge To Build Chat App Thats Am The One Who Sees And Knows Whats Going
    - Storge, Backup
 - Google Cloud App Engine (Python) && Heroku Cloud App (Python)
    - Django Application (Standard)
+   - Python Application (Standard)
 - Google Cloud Storge (Buckets)
    - Storge For (CSS,JS, etc.) 
 - Python 3.8+ (Language)
