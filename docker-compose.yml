@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    chatsystem:
+        container_name: chatappcontainer
+        build:
+            context: .
+            dockerfile: Dockerfile
+
