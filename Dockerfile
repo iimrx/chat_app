@@ -1,5 +1,5 @@
 FROM alpine
-RUN apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade && apt-get autoremove
+RUN apk update && apk upgrade && apk add py3-pip
 
 COPY . .
 RUN pip install -r requirements.txt
