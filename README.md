@@ -1,5 +1,5 @@
 # Private Chat App
-Self Challenge To Build Chat App Thats Am The One Who Sees And Knows Whats Going and Also Responsable Of Everything.
+Self Challenge To Build Chat App using Django+Heroku/GCP.
 ## This Challenge Consists of Many interesting parts:
 - Create Google Cloud SQL(MySQL Database)
 - Django App Running it On The Google Cloud App Engine (GAE)
