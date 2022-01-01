@@ -36,7 +36,7 @@ python3 manage.py runserver
     <td class="tg-yw4l">Heroku Cloud Deployment</td>
     <td class="tg-yw4l">Live django app running on Heroku Cloud and using PostgreSQL database (inside AWS=EC2)</td>
     <td class="tg-yw4l"><a href="https://myliquidxapp.herokuapp.com/">
-      <p>PCA</p>
+      <p>POC</p>
     </a></td>
   </tr>
   
@@ -44,6 +44,6 @@ python3 manage.py runserver
     <td class="tg-yw4l">Google Cloud Deployment</td>
     <td class="tg-yw4l">Live django app running on Google App Engine and using MySQL database (Cloud SQL Instance)</td>
     <td class="tg-yw4l"><a href="https://testdb-315718.el.r.appspot.com/">
-     <p>PCA</p>
+     <p>POC</p>
     </a></td>
   </tr>
